@@ -11,9 +11,10 @@ const jwt = require("jsonwebtoken")
 const { v4: uuidv4 } = require('uuid')
 const bcrypt = require('bcrypt')
 const crypto = require("./crypto/crypto")
+require('dotenv').config()
 
 const saltRounds = 10
-const key = "apvnjapciajjhl986556"
+const key = process.env.KEY
 
 app.use(cors())
 app.use(express.json())
