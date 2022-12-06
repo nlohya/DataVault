@@ -1,9 +1,9 @@
-# DataVault Client
+# DataVault Server
 
 ### Stack : 
-NodeJS, MongoDB, ReactJS
+NodeJS, MongoDB, ExpressJS
 
-Contains frontend sources
+Contains backend sources
 
 ### Run :
 - npm install
